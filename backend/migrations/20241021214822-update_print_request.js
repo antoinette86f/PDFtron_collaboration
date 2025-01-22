@@ -1,0 +1,21 @@
+"use strict";
+
+/** @type {import('sequelize-cli').Migration} */
+module.exports = {
+  async up(queryInterface, Sequelize) {
+    await queryInterface.addColumn("print_requests", "pagesCount", {
+      type: Sequelize.INTEGER,
+      allowNull: false,
+    });
+    await queryInterface.addColumn("print_requests", "printVolume", {
+      type: Sequelize.INTEGER,
+      allowNull: false,
+    });
+    await queryInterface.addColumn("print_requests", "documentId", {
+      type: Sequelize.STRING,
+      allowNull: false,
+    });
+  },
+
+  async down(queryInterface, Sequelize) {},
+};

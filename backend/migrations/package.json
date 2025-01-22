@@ -1,0 +1,9 @@
+{
+  "name": "pdftron-collaboration-migrations",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "dependencies": {
+    "umzug": "^2.3.0",
+    "sequelize-cli": "^6.6.2"
+  }
+}
