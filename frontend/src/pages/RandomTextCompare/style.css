@@ -1,0 +1,11 @@
+.upload-text {
+  background-color: white;
+  border: #1976d2 solid 2px;
+  color: #1976d2;
+  border-radius: 0.3rem;
+}
+
+.upload-text:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}

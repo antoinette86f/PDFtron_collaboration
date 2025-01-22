@@ -1,0 +1,18 @@
+/* style.css */
+.upload-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.file-upload {
+  width: 100%;
+}
+
+.pdf-viewer {
+  height: 80vh;
+  border: 1px solid #ccc;
+}
+
+button {
+  margin-top: 20px;
+}

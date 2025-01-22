@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+.route-container {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.icon-avatar {
+  transform: scale(1.4);
+}
+
+.menu-icon {
+  margin-right: 1rem;
+  color: gray;
+}
+
+.user-header {
+  display: flex;
+  align-items: center;
+}
+
+/* Style for webviewer */
+
+.webviewer {
+  height: calc(100vh - 60px);
+}
+
+.quill-container .ql-editor {
+  min-height: 150px;
+}
+
+#notification_content {
+  max-width: 350px;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

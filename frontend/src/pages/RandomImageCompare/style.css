@@ -1,0 +1,18 @@
+.enabled-button {
+  background-color: white;
+  border: #1976d2 solid 2px;
+  color: #1976d2;
+  border-radius: 0.3rem;
+}
+
+.enabled-button:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.disabled-button {
+  background-color: white;
+  border: #8b92ab solid 2px;
+  color: #8b92ab;
+  border-radius: 0.3rem;
+}
